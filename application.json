@@ -64,6 +64,22 @@
     {
       "id": "Oracle",
       "isDefault": false
+    },
+    {
+      "id": "All",
+      "isDefault": false
+    },
+    {
+      "id": "rw",
+      "isDefault": false
+    },
+    {
+      "id": "r",
+      "isDefault": false
+    },
+    {
+      "id": "1",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
