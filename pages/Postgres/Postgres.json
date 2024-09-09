@@ -1,11 +1,12 @@
 {
   "gitSyncId": "f725fd45-c84b-4cc9-9a33-9bac5fa61591_1d580748-ac15-4639-971f-05af0cb5b742",
   "unpublishedPage": {
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 5000,
+          "bottomRow": 380,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -26,7 +27,7 @@
         }
       }
     ],
-    "name": "Page1",
-    "slug": "page1"
+    "name": "Postgres",
+    "slug": "postgres"
   }
 }

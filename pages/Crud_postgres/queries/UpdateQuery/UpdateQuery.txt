@@ -1,0 +1,6 @@
+UPDATE public."sep3" SET
+		"first_name" = '{{update_form.fieldState.first_name.isVisible ? update_form.formData.first_name : update_form.sourceData.first_name}}',
+		"last_name" = '{{update_form.fieldState.last_name.isVisible ? update_form.formData.last_name : update_form.sourceData.last_name}}',
+    "position" = '{{update_form.fieldState.position.isVisible ? update_form.formData.position : update_form.sourceData.position}}',
+		"salary" = '{{update_form.fieldState.salary.isVisible ? update_form.formData.salary : update_form.sourceData.salary}}'
+WHERE "id" = {{data_table.selectedRow.id}};

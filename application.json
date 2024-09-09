@@ -18,11 +18,15 @@
   "icon": "cat",
   "pages": [
     {
-      "id": "Page1",
-      "isDefault": true
+      "id": "Postgres",
+      "isDefault": false
     },
     {
       "id": "s3",
+      "isDefault": true
+    },
+    {
+      "id": "Crud_postgres",
       "isDefault": false
     }
   ],

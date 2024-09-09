@@ -1,0 +1,10 @@
+INSERT INTO public."sep3" (
+	"first_name",
+	"last_name",
+	"position",
+	"salary")
+VALUES (
+	'{{insert_form.formData.first_name}}',
+	'{{insert_form.formData.last_name}}',
+	'{{insert_form.formData.position}}',
+	'{{insert_form.formData.salary}}');
