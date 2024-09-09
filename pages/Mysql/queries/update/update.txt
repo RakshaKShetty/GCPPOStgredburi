@@ -1,0 +1,3 @@
+UPDATE sep9
+SET salary = 80000.00
+WHERE name = 'Jane Smith';

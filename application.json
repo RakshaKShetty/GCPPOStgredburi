@@ -28,6 +28,22 @@
     {
       "id": "Crud_postgres",
       "isDefault": false
+    },
+    {
+      "id": "MOngo",
+      "isDefault": false
+    },
+    {
+      "id": "Mongo CRUD",
+      "isDefault": false
+    },
+    {
+      "id": "Mysql",
+      "isDefault": false
+    },
+    {
+      "id": "MySQL crud",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {

@@ -1,0 +1,5 @@
+INSERT INTO sep9 (name, position, salary)
+VALUES 
+    ('Jane Smith', 'Project Manager', 90000.00),
+    ('Alex Johnson', 'Data Analyst', 60000.00),
+    ('Emily Davis', 'QA Engineer', 55000.00);
