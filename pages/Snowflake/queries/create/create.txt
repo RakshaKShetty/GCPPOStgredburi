@@ -1,0 +1,6 @@
+CREATE TABLE sep9 (
+    id INTEGER AUTOINCREMENT PRIMARY KEY,
+    name STRING,
+    position STRING,
+    salary NUMBER(10, 2)
+);

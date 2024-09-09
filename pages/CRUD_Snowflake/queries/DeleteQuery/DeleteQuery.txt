@@ -1,0 +1,2 @@
+DELETE FROM PUBLIC.SEP3
+  WHERE POSITION = {{data_table.triggeredRow.POSITION}};

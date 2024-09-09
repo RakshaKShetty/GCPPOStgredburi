@@ -124,64 +124,49 @@
       "key": "boxShadow"
     },
     {
-      "key": "schema.__root_schema__.children.PersonID.defaultValue"
+      "key": "schema.__root_schema__.children.ID.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.PersonID.accentColor"
+      "key": "schema.__root_schema__.children.ID.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.PersonID.borderRadius"
+      "key": "schema.__root_schema__.children.ID.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.LastName.defaultValue"
+      "key": "schema.__root_schema__.children.FIRST_NAME.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.LastName.accentColor"
+      "key": "schema.__root_schema__.children.FIRST_NAME.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.LastName.borderRadius"
+      "key": "schema.__root_schema__.children.FIRST_NAME.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.attendence.defaultValue"
+      "key": "schema.__root_schema__.children.LAST_NAME.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.attendence.accentColor"
+      "key": "schema.__root_schema__.children.LAST_NAME.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.salary.defaultValue"
+      "key": "schema.__root_schema__.children.LAST_NAME.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.salary.accentColor"
+      "key": "schema.__root_schema__.children.POSITION.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.salary.borderRadius"
+      "key": "schema.__root_schema__.children.POSITION.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.joiningdate.defaultValue"
+      "key": "schema.__root_schema__.children.POSITION.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.joiningdate.accentColor"
+      "key": "schema.__root_schema__.children.SALARY.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.joiningdate.borderRadius"
+      "key": "schema.__root_schema__.children.SALARY.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.logindateandtime.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.logindateandtime.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.logindateandtime.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.gross.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.gross.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.gross.borderRadius"
+      "key": "schema.__root_schema__.children.SALARY.borderRadius"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -197,9 +182,6 @@
     },
     {
       "key": "onSubmit"
-    },
-    {
-      "key": "schema.__root_schema__.children.attendence.defaultValue"
     }
   ],
   "dynamicTriggerPathList": [
@@ -212,7 +194,7 @@
   "hideCard": false,
   "iconSVG": "/static/media/icon.6bacf7df.svg",
   "isLoading": false,
-  "isVisible": "{{!!data_table.selectedRow.PersonID}}",
+  "isVisible": "{{!!data_table.selectedRow.POSITION}}",
   "key": "h9l9ozr8op",
   "labelTextSize": "0.875rem",
   "leftColumn": 39,
@@ -239,155 +221,115 @@
       "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
       "cellBoxShadow": "none",
       "children": {
-        "LastName": {
+        "FIRST_NAME": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "accessor": "LastName",
+          "accessor": "FIRST_NAME",
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
           "dataType": "string",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.LastName))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.FIRST_NAME))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "fieldType": "Text Input",
           "iconAlign": "left",
-          "identifier": "LastName",
+          "identifier": "FIRST_NAME",
           "isCustomField": false,
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Last Name",
+          "label": "FIRST NAME",
           "labelTextSize": "0.875rem",
-          "originalIdentifier": "LastName",
+          "originalIdentifier": "FIRST_NAME",
           "position": 1,
-          "sourceData": "null"
+          "sourceData": "John"
         },
-        "PersonID": {
+        "ID": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "accessor": "PersonID",
+          "accessor": "ID",
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
           "dataType": "number",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.PersonID))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.ID))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "fieldType": "Number Input",
           "iconAlign": "left",
-          "identifier": "PersonID",
+          "identifier": "ID",
           "isCustomField": false,
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Person ID",
+          "label": "ID",
           "labelTextSize": "0.875rem",
-          "originalIdentifier": "PersonID",
+          "originalIdentifier": "ID",
           "position": 0,
-          "sourceData": 0
+          "sourceData": 1
         },
-        "attendence": {
+        "LAST_NAME": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "accessor": "attendence",
-          "alignWidget": "LEFT",
+          "accessor": "LAST_NAME",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "boolean",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.attendence))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Switch",
-          "identifier": "attendence",
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.LAST_NAME))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "LAST_NAME",
           "isCustomField": false,
           "isDisabled": false,
           "isRequired": false,
+          "isSpellCheck": false,
           "isVisible": true,
-          "label": "Attendence",
+          "label": "LAST NAME",
           "labelTextSize": "0.875rem",
-          "originalIdentifier": "attendence",
+          "originalIdentifier": "LAST_NAME",
           "position": 2,
-          "sourceData": false
+          "sourceData": "Doe"
         },
-        "gross": {
+        "POSITION": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "accessor": "gross",
+          "accessor": "POSITION",
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "number",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.gross))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Number Input",
-          "iconAlign": "left",
-          "identifier": "gross",
-          "isCustomField": false,
-          "isDisabled": false,
-          "isRequired": false,
-          "isSpellCheck": false,
-          "isVisible": true,
-          "label": "Gross",
-          "labelTextSize": "0.875rem",
-          "originalIdentifier": "gross",
-          "position": 6,
-          "sourceData": 0
-        },
-        "joiningdate": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "accessor": "joiningdate",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "boxShadow": "none",
-          "children": {},
-          "dataType": "null",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.joiningdate))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.POSITION))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "fieldType": "Text Input",
           "iconAlign": "left",
-          "identifier": "joiningdate",
+          "identifier": "POSITION",
           "isCustomField": false,
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Joiningdate",
+          "label": "POSITION",
           "labelTextSize": "0.875rem",
-          "originalIdentifier": "joiningdate",
-          "position": 4
-        },
-        "logindateandtime": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "accessor": "logindateandtime",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "boxShadow": "none",
-          "children": {},
-          "dataType": "null",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.logindateandtime))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
-          "identifier": "logindateandtime",
-          "isCustomField": false,
-          "isDisabled": false,
-          "isRequired": false,
-          "isSpellCheck": false,
-          "isVisible": true,
-          "label": "Logindateandtime",
-          "labelTextSize": "0.875rem",
-          "originalIdentifier": "logindateandtime",
-          "position": 5
-        },
-        "salary": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "accessor": "salary",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "boxShadow": "none",
-          "children": {},
-          "dataType": "number",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.salary))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Number Input",
-          "iconAlign": "left",
-          "identifier": "salary",
-          "isCustomField": false,
-          "isDisabled": false,
-          "isRequired": false,
-          "isSpellCheck": false,
-          "isVisible": true,
-          "label": "Salary",
-          "labelTextSize": "0.875rem",
-          "originalIdentifier": "salary",
+          "originalIdentifier": "POSITION",
           "position": 3,
-          "sourceData": 0
+          "sourceData": "Developer"
+        },
+        "SALARY": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "SALARY",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.SALARY))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "SALARY",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "SALARY",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "SALARY",
+          "position": 4,
+          "sourceData": 80000
         }
       },
       "dataType": "object",
@@ -420,7 +362,7 @@
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "buttonVariant": "PRIMARY"
   },
-  "title": "Update Row PersonID: {{data_table.selectedRow.PersonID}}",
+  "title": "Update Row POSITION: {{data_table.selectedRow.POSITION}}",
   "topRow": 0,
   "type": "JSON_FORM_WIDGET",
   "version": 1,

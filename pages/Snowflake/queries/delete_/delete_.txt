@@ -1,0 +1,2 @@
+DELETE FROM sep9
+WHERE salary < 60000;

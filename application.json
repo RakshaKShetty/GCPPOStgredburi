@@ -44,6 +44,18 @@
     {
       "id": "MySQL crud",
       "isDefault": false
+    },
+    {
+      "id": "Fire",
+      "isDefault": false
+    },
+    {
+      "id": "CRUD_Snowflake",
+      "isDefault": false
+    },
+    {
+      "id": "Snowflake",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
